@@ -1,0 +1,25 @@
+//escribir la librería
+//Sección de liberías que se usarán en el código
+#include<stdio.h>
+
+//Declaración de variables
+float base;
+float altura;
+int resultado;
+float area;
+
+//Declaración de funciones
+int main()
+{
+	float altura, base;
+	
+	printf("\n Introduzca el valor de la base (real):");
+	scanf("%f", &base);
+	printf("\n Introduzca la altura (real):");
+	scanf("%f", &altura);
+	 
+	area = (base * altura)/2;
+	
+	printf("El área es de: %f", area); 
+	return 0; 
+}
